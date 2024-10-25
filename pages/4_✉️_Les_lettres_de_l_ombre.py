@@ -13,7 +13,7 @@ ASSISTANT_ID_ECRIVAIN_RSLC = st.secrets["ASSISTANT_ID_ECRIVAIN"]
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Nombre maximum d'interactions autorisées
-MAX_INTERACTIONS = 10
+MAX_INTERACTIONS = 12
 
 # Initialisation de l'état de la session pour stocker l'historique des conversations et les threads
 if "chat_history" not in st.session_state:
